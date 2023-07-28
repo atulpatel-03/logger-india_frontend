@@ -2,7 +2,7 @@ import axios from "axios"
 import store from "../store"
 
 const api = axios.create({
-  baseURL: "http://localhost:4000",
+  baseURL: "https://logger-india.onrender.com",
   headers: {
     "Content-Type": "application/json",
   },
